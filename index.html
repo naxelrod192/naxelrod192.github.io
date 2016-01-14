@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<title>AXELROD | EDITORIAL &amp; CREATIVE DIRECTION, BRAND DEVELOPMENT, &amp; DIGITAL CONSULTING </title>
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<meta name="viewport" content="width=500" />
+		<style type="text/css">
+			#wrap {
+				opacity: 0;
+				width: 355px;
+				height: 204px;
+			}
+			#wrap img {text-align:center;}
+			.axelrod, .services {margin-bottom:34px; margin-left: auto; margin-right: auto;}
+			
+			.contact {padding-bottom:9px; border-bottom: 2px solid #000; -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; margin-left: auto; margin-right: auto; opacity:1;}
+			.contact:hover {border-bottom: 2px solid #fff; -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; opacity: .7;}
+    p {margin: 0; text-align:center; padding: 0; width: 100%; display:block;}
+		</style>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
+	
+		<script type='text/javascript'>
+
+		$(document).ready(function() {
+		jQuery.fn.middle = function () {
+		    this.css("position","absolute");
+		    this.css("margin-top", (($(window).height() - this.outerHeight()) / 2) + "px");
+		    this.css("margin-left", (($(window).width() - this.outerWidth()) / 2) + "px");
+		    return this;
+		}
+			$('div#wrap').hide().delay(600).css('opacity', 1).fadeIn(500).middle();
+			
+		});
+		</script>
+	</head>
+	<body>
+		<div id="wrap">
+			<p><img class="axelrod" src="axelrod.png" /></p>
+			<p><img class="services" src="services.png" /></p>
+			<p><a href="mailto:hello@axelrodcompany.com"><img class="contact" src="contact.png" /></a></p>
+		</div>
+	</body>
+</html>
